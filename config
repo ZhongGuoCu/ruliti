@@ -1,0 +1,27 @@
+[General]
+bypass-system = true
+skip-proxy = 10.0.0.0/8, 17.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, localhost, *.local, *.crashlytics.com
+bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/24, 172.16.0.0/12, 192.168.0.0/16
+loglevel = notify
+dns-server = 8.8.8.8, 8.8.4.4, 1.1.1.1
+#  
+[Rule]
+# PROXY
+DOMAIN-SUFFIX,2ip.ru,Proxy
+DOMAIN-SUFFIX,instagram.com,Proxy
+DOMAIN-SUFFIX,facebook.com,Proxy
+DOMAIN-SUFFIX,twitter.com,Proxy
+DOMAIN-SUFFIX,cdninstagram.com,Proxy
+DOMAIN-SUFFIX,ig.me,Proxy
+#IP
+IP-CIDR,102.132.96.174/24,PROXY
+IP-CIDR,102.132.97.38/24,PROXY
+IP-CIDR,31.13.77.174/24,PROXY
+IP-CIDR,31.13.94.172/24,PROXY
+IP-CIDR,157.240.208.174/24,PROXY
+IP-CIDR,157.240.214.174/24,PROXY
+IP-CIDR,157.240.18.174/24,PROXY
+IP-CIDR,157.240.13.37/24,PROXY
+IP-CIDR,31.13.86.174/24,PROXY
+IP-CIDR,157.240.227.174/24,PROXY
+IP-CIDR,102.132.101.174/24,PROXY
